@@ -1,0 +1,33 @@
+$bg-color: #fff;
+$color: #333;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: $bg-color;
+  color: $color;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  h1 {
+    margin-bottom: 20px;
+  }
+}
+img {
+  width: 30%;
+  display: block;
+  animation: animate 10s infinite linear;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(-360deg);
+  }
+}
